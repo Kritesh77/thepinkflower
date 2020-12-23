@@ -1,5 +1,6 @@
-
-
+<meta>
+  <?php include"./inc/head.inc.php"; ?>
+</meta>
 <body>
   <?php
   include"inc/header.php";

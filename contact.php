@@ -1,3 +1,5 @@
+<?php include"./inc/head.inc.php"; ?>
+
 <body>
   <?php
   include("./inc/header.php");

@@ -4,6 +4,7 @@
   <meta name="author" content="Jayati Kaushik">
   <meta name="tags" content="art, artist, printmaking,college of arts, ">
   <title>The Pink Flower</title>
+  <?php include"./inc/head.inc.php"; ?>
 </head>
 
 <body>

@@ -1,4 +1,5 @@
 <?php
+include("./inc/head.inc.php");
 include("./inc/header.php");
 include("./inc/functions.php");
 ?>

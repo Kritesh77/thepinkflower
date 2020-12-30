@@ -7,10 +7,12 @@ if(isset($_POST['submitCategory'])){
     echo "Enter a category to insert";
   }else{
     $previousCategories = getCategories();
+    print_r($previousCategories);
     if($previousCategories != 0){
       // print_r($previousCategories);
       $categoryExists = array_search($newCategory,$previousCategories);
-      if($categoryExists){
+      // echo(gettype($categoryExists));
+      if(is_int($categoryExists)){
         echo "Category already exists";
       }
       else {

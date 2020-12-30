@@ -284,5 +284,10 @@
 <script>
   $(".nav a").removeClass("selected");
   $(".contact").addClass("selected");
+  AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 600
+      });
+
 </script>
 <script src="./js/main.js" charset="utf-8"></script>

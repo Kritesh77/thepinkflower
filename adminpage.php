@@ -7,7 +7,7 @@ include("./inc/functions.php");
 <section class="admin-page">
   <div class="category">
     <div class="toggle-box border-5 whitebg">
-      <div class="toggle-box-header  flex">
+      <div class="toggle-box-header  add-category flex">
         <h3>Add a new category to your homepage</h3>
         <i  class="category-arrow arrow fas fa-arrow-down"></i>
       </div>
@@ -40,6 +40,7 @@ include("./inc/functions.php");
 </section>
 </body>
 <script>
+  AOS.init({}); 
 $(document).ready(function(){
     $('.toggle-box-header').click(function () {
       console.log(this);

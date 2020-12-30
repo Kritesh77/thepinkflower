@@ -10,7 +10,7 @@ function getFeatured()
             $image = $row['image'];
             $category = $row['category'];
             $tempPath = "./img/temp/".$image; ?>
-      <div class="box">
+      <div class="box" data-aos="fade-up" data-aos-duration="600">
         <div class="imgbox trans">
           <a href="image.php?image=<?php echo $category; ?>">
             <img src="<?php echo $tempPath; ?>" alt="">
@@ -34,12 +34,12 @@ function getImage()
         $row = mysqli_fetch_assoc($result);
         $image = $row['image'];
         $title = $row['category']; ?>
-    <div class="full-image">
-      <img src="./img/<?php echo $image; ?>" alt="">
+    <div class="full-image" >
+      <img data-aos="fade-up" src="./img/<?php echo $image; ?>" alt="">
     </div>
-    <div class="desc">
-      <h2 class='title med'><?php echo $title; ?></h2>
-      <p class='info med'>This lithograph called ‘Growth’ is very close to my heart! I have always received an emotional response from the audience about this art. How they see themselves in this and how this piece tells their story. And that’s what made it special for me. ❤️ :’)
+    <div class="desc" >
+      <h2 class='title med'data-aos="fade-in" data-aos-delay="300"><?php echo $title; ?></h2>
+      <p class='info med'data-aos="fade-in" data-aos-delay="600">This lithograph called ‘Growth’ is very close to my heart! I have always received an emotional response from the audience about this art. How they see themselves in this and how this piece tells their story. And that’s what made it special for me. ❤️ :’)
       </p>
     </div>
     <?php
@@ -67,8 +67,8 @@ function getFeaturedExcept()
             $image = $row['image'];
             $category = $row['category'];
             $tempPath = "./img/temp/".$image; ?>
-      <div class="box">
-        <div class="imgbox trans">
+      <div class="box" >
+        <div class="imgbox trans" data-aos="fade-up">
           <a href="image.php?image=<?php echo $category; ?>">
             <img src="<?php echo $tempPath; ?>" alt="">
           </a>
@@ -114,7 +114,8 @@ function insertNewCategory($newCategory){
     if(mysqli_query($conn,$sql)){
       return "SUCCESS";
     }else {
-      return "FAILED";
+      echo mysqli_error($conn);
+      // return "FAILED";
     }
 }
 

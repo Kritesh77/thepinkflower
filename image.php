@@ -9,7 +9,7 @@
 
 <body>
   <?php include"./inc/header.php"; ?>
-  <section class='image-sec border'>
+  <section class='image-sec'>
     <?php
       include_once "inc/functions.php";
       getImage();
@@ -31,4 +31,11 @@
     ?>
   </section>
 </body>
-<script src="js/main.js" charset="utf-8"></script>
+<script src="js/main.js" charset="utf-8">
+</script>
+<script>
+  AOS.init({
+        easing: 'ease-in-out-sine',
+        duration: 600
+      });
+</script>

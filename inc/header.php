@@ -1,11 +1,12 @@
+
 <header>
 <body>
   <div class="logo">
-    <h1 class='light'><a href='./index.php'>thepinkflower 🌸</a></h1>
+    <h1 class='light' data-aos="fade-in"><a href='./index.php'>thepinkflower <span data-aos="fade-in" data-aos-delay="100">🌸<span></a></h1>
   </div>
   <div class="navigation med">
-    <a href="./index.php" class='selected work'>Work</a>
-    <a href="./about.php" class='about'>About</a>
-    <a href="./contact.php" class='contact'>Contact</a>
+    <a href="./index.php" class='work' data-aos="fade-in" data-aos-delay="300">Work</a>
+    <a href="./about.php" class='about' data-aos="fade-in" data-aos-delay="500">About</a>
+    <a href="./contact.php" class='contact' data-aos="fade-in" data-aos-delay="700">Contact</a>
   </div>
 </header>

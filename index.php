@@ -7,6 +7,7 @@
   <title>The Pink Flower</title>
   <?php include"./inc/head.inc.php"; ?>
 </head>
+
   <?php include"./inc/header.php"; ?>
   <section class='works'>
     <?php
@@ -21,5 +22,9 @@
 <script>
   $(".nav a").removeClass("selected");
   $(".work").addClass("selected");
+  AOS.init({
+        easing: 'ease-in-out-sine'
+      });
 </script>
+
 </html>

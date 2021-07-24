@@ -15,7 +15,9 @@
 
   </div>
 </section>
-
+<div class="w-full footer" >
+  <a href="https://www.instagram.com/the__pink__flower/">INSTAGRAM</a>
+</div>
 </body>
 
 <script>

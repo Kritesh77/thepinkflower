@@ -20,9 +20,9 @@
       <a href="./index.php">Back to Work</a>
     </div>
     <div class="prev-next">
-      <!-- <a href="<?php echo  $_SERVER['HTTP_REFERER']; ?>">Previous</a> -->
-      <!-- <p2>/</p2> -->
-      <!-- <a href="">Next</a> -->
+      <a href="<?php echo  $_SERVER['HTTP_REFERER']; ?>">Previous</a>
+      <p>/</p>
+      <p href="#">Next</p>
     </div>
   </div>
   <section class='works'>
@@ -30,9 +30,10 @@
     getFeaturedExcept();
     ?>
   </section>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+
 </body>
-<script src="js/main.js" charset="utf-8">
-</script>
+<script src="./js/main.js" charset="utf-8"></script>
 <script>
   AOS.init({
         easing: 'ease-in-out-sine',

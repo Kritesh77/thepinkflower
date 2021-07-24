@@ -15,9 +15,8 @@
       getFeatured();
     ?>
   </section>
-  <script src="./js/main.js" charset="utf-8"></script>
-
 </body>
+<script src="./js/main.js" charset="utf-8"></script>
 
 <script>
   $(".nav a").removeClass("selected");

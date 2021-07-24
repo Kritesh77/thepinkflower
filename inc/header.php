@@ -1,6 +1,7 @@
 
-<header>
+
 <body>
+<header>
   <div class="logo">
     <h1 class='light' data-aos="fade-in"><a href='./index.php'>thepinkflower <span data-aos="fade-in" data-aos-delay="100">🌸<span></a></h1>
   </div>
